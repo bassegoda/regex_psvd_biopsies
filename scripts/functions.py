@@ -1,5 +1,6 @@
 import re 
 
+
 def find_patterns(text, pattern_dict, prefix=""):
     """
     Find patterns in text using a dictionary of pattern names and regex patterns.
@@ -21,6 +22,7 @@ def find_patterns(text, pattern_dict, prefix=""):
         results[f"{prefix}{name}"] = [match.group() for match in matches]
     
     return results
+
 
 def process_patterns(df, column_name, pattern_dict, prefix=""):
     """

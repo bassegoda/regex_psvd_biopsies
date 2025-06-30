@@ -1,5 +1,5 @@
 """
-Module containing the pattern matching used fot the regex analysis of PSVD biopsies
+Module containing the pattern matching used for the regex analysis of PSVD biopsies
 """
 
 patterns = {
